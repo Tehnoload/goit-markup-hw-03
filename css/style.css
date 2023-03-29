@@ -38,6 +38,9 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
+.img {
+  display: block;
+}
 /* Шапка сайта */
 
 .logo {
@@ -87,6 +90,9 @@ img {
   color: var(--accent-color);
 }
 .nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -105,15 +111,20 @@ img {
 }
 /* Герой */
 .section {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .features {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
   text-align: center;
 }
 .title {
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 30px;
-  padding-top: 200px;
+  max-width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -123,7 +134,6 @@ img {
   color: #ffffff;
 }
 .button-title {
-  margin-bottom: 200px;
   padding: 10px 32px;
   min-width: 216px;
   font-family: "Roboto", sans-serif;
@@ -155,6 +165,7 @@ img {
   margin-right: 30px;
 }
 .item {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -170,6 +181,9 @@ img {
   color: var(--primary-text-color);
 }
 /* Чим ми займаємося */
+.section-about {
+  padding-bottom: 94px;
+}
 .about {
   display: flex;
   margin-left: -30px;
@@ -181,6 +195,7 @@ img {
   margin-left: 30px;
   height: 294px;
 }
+
 /* Наша команда */
 .command-list {
   display: flex;
@@ -211,6 +226,7 @@ img {
   color: var(--title-text-color);
 }
 .name {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -238,7 +254,6 @@ img {
 }
 .footer-contacts {
   padding-left: 0;
-  margin-top: 28px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -254,8 +269,13 @@ img {
 }
 .contacts {
   font-style: normal;
+  margin-top: 12px;
+}
+.contacts-map {
+  margin-top: 28px;
 }
 .contacts-nav {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -287,10 +307,10 @@ img {
   display: flex;
   justify-content: center;
   padding-left: 0;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .button {
+  padding: 6px 22px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -326,9 +346,9 @@ button:active {
   margin-top: 30px;
   width: 370px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 .project-title {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -356,4 +376,7 @@ button:active {
 }
 .poster {
   padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
