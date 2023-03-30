@@ -64,6 +64,7 @@ img {
 .head {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 .nav {
   display: flex;
@@ -271,8 +272,8 @@ img {
   font-style: normal;
   margin-top: 12px;
 }
-.contacts-map {
-  margin-top: 28px;
+address {
+  margin-top: 20px;
 }
 .contacts-nav {
   font-style: normal;
